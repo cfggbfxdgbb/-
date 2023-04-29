@@ -1,0 +1,11 @@
+#字典赋值法
+i={"杨xx":"186xxxxxxxx","李xx":"156xxxxxxxx","王xx":"175xxxxxxxx"}
+for a ,b in i.items():
+    print("{0}您好,您的电话号码为{1}".format(a,b))
+    #波形括号中{}要填入len()数字,从0开始算, 逗号隔开的重新算
+
+#列表赋值法
+c=["小李","小王","小芳","老赵","老王"]
+for d in c:
+    f="""拨打给{0}""".format(d)
+    print(f)
